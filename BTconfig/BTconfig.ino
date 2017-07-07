@@ -6,12 +6,12 @@ SoftwareSerial mySerial(2, 3); // RX, TX
 void setup()  
 {
   // Open serial communications and wait for port to open:
-  Serial.begin(38400);
+  Serial.begin(9600);
 
   Serial.println("Ready for configuration...");
 
   // set the data rate for the SoftwareSerial port
-  mySerial.begin(38400);
+  mySerial.begin(9600);
 }
 
 char a=0;
